@@ -1,4 +1,6 @@
-const token = "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";
+import { PUBLIC_GITHUB_TOKEN } from "$env/static/public";
+
+const token = PUBLIC_GITHUB_TOKEN;
 const authParams = {
   headers: {
     Authorization: `Bearer ${token}`,
